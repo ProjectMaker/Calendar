@@ -1,0 +1,44 @@
+.calendar-day, .calendar-layout-body {
+    float:left
+}
+
+.calendar-slots-container {
+    margin: 0
+}
+.calendar-hour {
+    width: 50px;
+    height: 30px;
+    margin-top: 4.5px;
+}
+.calendar-slot {
+    width: 90px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.calendar-slot.available {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.calendar-slot.reserved {
+    cursor: pointer;
+    background-color: green;
+}
+
+.calendar-date {
+    width: 90px;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+.calendar-no-date {
+    width: 50px;
+    height: 35px;
+    float:left;
+}
+
+.bt-next, .bt-previous {
+    cursor: pointer;
+}

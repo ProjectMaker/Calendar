@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <script src="bower_components/requirejs/require.js"></script>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="app"></div>
+<script type="text/javascript">
+    require(['main.js?v=' + (new Date()).getTime()], function() {
+        require(['calendar']);
+    });
+
+</script>
+</body>
+</html>

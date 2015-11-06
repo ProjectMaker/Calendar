@@ -1,0 +1,28 @@
+{
+  "name": "Calendar",
+  "version": "0.0.0",
+  "authors": [
+    "MICHELET <michelet@pro.cabestan.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "backbone": "~1.2.3",
+    "backbone.marionette": "marionette#~2.4.3",
+    "requirejs": "~2.1.20",
+    "text": "requirejs-text#~2.0.14",
+    "backbone-relational": "~0.10.0",
+    "moment": "~2.10.6"
+  }
+}
